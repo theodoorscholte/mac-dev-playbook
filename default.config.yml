@@ -22,41 +22,46 @@ sudoers_custom_config: ""
 #   # Allow users in admin group to use sudo with no password.
 #   %admin ALL=(ALL) NOPASSWD: ALL
 
-dotfiles_repo: https://github.com/geerlingguy/dotfiles.git
+dotfiles_repo: https://github.com/theodoorscholte/mac-dotfiles.git
 dotfiles_repo_accept_hostkey: true
-dotfiles_repo_local_destination: ~/Development/GitHub/dotfiles
-dotfiles_repo_version: master # Replace with your default branch
+dotfiles_repo_local_destination: ~/projects/home/dotfiles
+dotfiles_repo_version: main # Replace with your default branch
 dotfiles_files:
   - .zshrc
   - .gitignore
   - .inputrc
   - .osx
   - .vimrc
+  - .aws/config
+  - .claude/settings.json
 
 homebrew_installed_packages:
   # - ansible # Installed via Pip.
   - autoconf
+  - awscli
   - bash-completion
   - doxygen
   - gettext
+  - gh
   - gifsicle
   - git
-  - gh
   - go
   - gpg
   - httpie
   - iperf
   - libevent
-  - sqlite
+  - lima
   - nmap
   - node
   - nvm
-  - php
-  - pngpaste
-  - ssh-copy-id
-  - readline
   - openssl
+  - pngpaste
   - pv
+  - pyenv
+  - readline
+  - sqlite
+  - ssh-copy-id
+  - uv
   - wget
   - wrk
   - zsh-history-substring-search
@@ -65,17 +70,23 @@ homebrew_taps: []
 
 homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
+  - 1password
+  - bitwarden
   - chromedriver
   - docker
-  - dropbox
   - firefox
   - google-chrome
   - handbrake
   - licecap
   - sequel-ace
+  - signal
   - slack
   - sublime-text
+  - synology-drive
   - transmit
+  - visual-studio-code
+  - whatsapp
+  - zed
 
 # See `geerlingguy.mac.mas` role documentation for usage instructions.
 mas_installed_apps: []
