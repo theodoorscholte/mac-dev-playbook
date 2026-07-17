@@ -26,10 +26,9 @@ homebrew_cask_apps:
 
 
 # See `geerlingguy.mac.mas` role documentation for usage instructions.
-mas_installed_apps: [
+mas_installed_apps:
   - { id: 1352778147, name: "Bitwarden" }
   - { id: 310633997, name: "WhatsApp Messenger" }
-]
 
 # Install packages from other package managers.
 # Note: You are responsible for making sure the required package managers are
