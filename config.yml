@@ -11,8 +11,34 @@ dotfiles_files:
   - .vimrc
   - .aws/config
   - .claude/settings.json
+  - .claude/litellm-key.sh
 
 homebrew_installed_packages:
+  - autoconf
+  - bash-completion
+  - doxygen
+  - gettext
+  - gifsicle
+  - git
+  - gh
+  - go
+  - gpg
+  - httpie
+  - iperf
+  - libevent
+  - sqlite
+  - nmap
+  - node
+  - nvm
+  - pngpaste
+  - ssh-copy-id
+  - readline
+  - openssl
+  - pv
+  - pyenv
+  - wget
+  - wrk
+  - zsh-history-substring-search
   - awscli
   - lima
   - uv
@@ -43,6 +69,10 @@ gem_packages: []
 #   version: "~> 1.15.1" # default: N/A
 npm_packages:
   - name: "@anthropic-ai/claude-code"
+    state: present
+  - name: "corepack@latest"
+    state: present
+  - name: "pnpm@latest-11"
     state: present
 # - name: webpack
 #   state: present # present/absent/latest, default: present
