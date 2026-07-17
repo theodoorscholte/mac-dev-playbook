@@ -42,6 +42,8 @@ homebrew_installed_packages:
   - awscli
   - lima
   - uv
+  - pnpm
+  - corepack
 
 homebrew_taps: []
 
@@ -49,12 +51,14 @@ homebrew_cask_apps:
   - signal
   - visual-studio-code
   - zed
+  - bitwarden
+  - whatsapp
+  - claude-code
+
 
 
 # See `geerlingguy.mac.mas` role documentation for usage instructions.
-mas_installed_apps:
-  - { id: 1352778147, name: "Bitwarden" }
-  - { id: 310633997, name: "WhatsApp Messenger" }
+mas_installed_apps: []
 
 # Install packages from other package managers.
 # Note: You are responsible for making sure the required package managers are
@@ -67,13 +71,7 @@ gem_packages: []
 # - name: bundler
 #   state: present # present/absent/latest, default: present
 #   version: "~> 1.15.1" # default: N/A
-npm_packages:
-  - name: @anthropic-ai/claude-code
-    state: present
-  - name: corepack@latest
-    state: present
-  - name: pnpm@latest-11
-    state: present
+npm_packages: []
 # - name: webpack
 #   state: present # present/absent/latest, default: present
 #   version: "^2.6" # default: N/A
