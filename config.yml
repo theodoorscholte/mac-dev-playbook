@@ -11,7 +11,7 @@ dotfiles_files:
   - .vimrc
   - .aws/config
   - .claude/settings.json
-  - .claude/litellm-key.sh
+  - .claude/litellm_key.sh
 
 homebrew_installed_packages:
   - autoconf
