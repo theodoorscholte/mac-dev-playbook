@@ -42,7 +42,6 @@ homebrew_installed_packages:
   - awscli
   - lima
   - uv
-  - pnpm
   - corepack
   - 1password-cli
 
