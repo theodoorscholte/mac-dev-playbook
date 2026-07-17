@@ -19,13 +19,6 @@ homebrew_installed_packages:
 
 homebrew_taps: []
 
-homebrew_cask_appdir: /Applications
-homebrew_cask_apps:
-  - bitwarden
-  - signal
-  - whatsapp
-  - visual-studio-code
-
 # Install packages from other package managers.
 # Note: You are responsible for making sure the required package managers are
 # installed, eg. through homebrew.
