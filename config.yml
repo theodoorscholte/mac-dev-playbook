@@ -12,6 +12,7 @@ dotfiles_files:
   - .aws/config
   - .claude/settings.json
   - .claude/litellm_key.sh
+  - .ssh/config
 
 homebrew_installed_packages:
   - autoconf
